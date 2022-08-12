@@ -1,0 +1,245 @@
+$color: #4f90cd;
+$background: #fff;
+$foreground: #000;
+$border: #ccc;
+$grey: #999;
+
+html {
+    font-size: 16px;
+}
+html, body {
+    font-family: Ubuntu, sans-serif;
+    background-color: $background;
+    color: $foreground;
+}
+a {
+    color: $foreground;
+    .mdi {
+        color: $color;
+    }
+}
+a:hover {
+    color: $foreground;
+}
+h5 {
+    display: inline;
+    font-weight: 500;
+}
+div.container {
+    max-width: 960px;
+    background-color: $background;
+}
+div.page {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+
+    div.wrapper {
+        padding: 1rem;
+    }
+}
+div.clear {
+    clear: both;
+}
+div.main {
+    padding-right: 1rem;
+}
+
+div.header {
+    div.photo-col {
+        max-width: 150px;
+        padding-left: 1rem;
+
+        @media only screen and (max-width: 769px) {
+            max-width: none;
+            text-align: center;
+        }
+    }
+    img {
+        float: left;
+        border: 1px solid $border;
+        border-radius: 50%;
+        margin-top: 0.5rem;
+        max-width: 125px;
+        max-height: 125px;
+
+        @media only screen and (max-width: 769px) {
+            float: none;
+        }
+    }
+
+    h1.title {
+        font-weight: 500;
+    }
+
+    .subtitle {
+        color: $color;
+    }
+
+    .description {
+        margin-top: -1.25rem;
+    }
+}
+
+div.links {
+    background-color: $color;
+    margin: 0;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    color: $background;
+    text-align: center;
+
+    li {
+        display: inline;
+
+        @media only screen and (max-width: 769px) {
+            display: block;
+            padding: 0.5rem;
+        }
+    }
+
+    a {
+        color: $background;
+        padding: 0.8rem;
+        .mdi {
+            color: $background;
+            margin-right: 0.25rem;
+        }
+    }
+}
+
+div.cv-section {
+
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+
+    &:first-child {
+        margin-top: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $color;
+        text-transform: uppercase;
+    }
+
+    div.work-experience {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        div.sub {
+            font-size: 0.8rem;
+            font-style: italic;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                position: relative;
+                padding-left: 1.2rem;
+                margin-bottom: 0.5rem;
+            }
+
+            li:before {
+                position: absolute;
+                left: 0;
+                top: 2px;
+                color: $color;
+                content: "\F130";
+                font-family: "Material Design Icons";
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    ul.skills {
+        margin-top: 0.5rem;
+
+        li {
+            display: inline;
+            background-color: $color;
+            color: $background;
+            padding: 0.25rem 0.70rem;
+            border-radius: 5px;
+            line-height: 2rem;
+        }
+    }
+
+    ul.skills-alt li {
+        background-color: $background;
+        color: inherit;
+        border: 1px solid $border;
+    }
+}
+
+div.color {
+    color: $color;
+}
+
+div.grey {
+    color: $grey;
+}
+
+div.download-wrapper {
+    text-align: center;
+    a.download-link {
+        position: fixed;
+        right: 10px;
+        top: 10px;
+
+        span.mdi {
+            color: $foreground;
+            margin-right: 5px;
+        }
+
+        @media only screen and (max-width: 1230px) {
+            position: initial;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .section {
+        padding: 0;
+    }
+    div.container {
+        width: 100%;
+        max-width: none;
+    }
+    div.page {
+        box-shadow: none;
+    }
+    div.download-wrapper {
+        display: none;
+    }
+}
+
+
+@media print {
+    .section {
+        padding: 0;
+    }
+    div.container {
+        width: 100%;
+        max-width: none;
+    }
+    div.page {
+        box-shadow: none;
+    }
+    div.download-wrapper {
+        display: none;
+    }
+}
