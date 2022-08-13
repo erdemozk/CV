@@ -175,7 +175,7 @@ div.download-wrapper {
   div.download-wrapper {
     display: none; } }
 
-div.footer {
+.FOT {
   margin-top: 15px;
   align-items: flex-end;
   justify-items: end;
@@ -183,16 +183,13 @@ div.footer {
   background-color: transparent;
 }
 
-div.footer span {
+.FOTspan {
   justify-self: flex-end;
   font-size: 0.9rem;
   align-self: flex-end;
-  /* border-color: red;
-  border-width: 1;
-  border-style: solid; */
 }
 
-div.footer a {
+.FOTa {
   color: grey; 
   text-align: right;
 }
