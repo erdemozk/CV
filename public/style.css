@@ -174,3 +174,25 @@ div.download-wrapper {
     box-shadow: none; }
   div.download-wrapper {
     display: none; } }
+
+div.footer {
+  margin-top: 15px;
+  align-items: flex-end;
+  justify-items: end;
+  padding: 0;
+  background-color: transparent;
+}
+
+div.footer span {
+  justify-self: flex-end;
+  font-size: 0.9rem;
+  align-self: flex-end;
+  /* border-color: red;
+  border-width: 1;
+  border-style: solid; */
+}
+
+div.footer a {
+  color: grey; 
+  text-align: right;
+}
