@@ -243,3 +243,22 @@ div.download-wrapper {
         display: none;
     }
 }
+
+.FOT {
+    margin-top: 15px;
+    align-items: flex-end;
+    justify-items: end;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .FOTspan {
+    justify-self: flex-end;
+    font-size: 0.9rem;
+    align-self: flex-end;
+  }
+  
+  .FOTa {
+    color: grey; 
+    text-align: right;
+  }
