@@ -3,11 +3,8 @@ html {
 
 html, body {
   font-family: Ubuntu, sans-serif;
-  /* background-color: #fff; */
-  /* background: rgb(9,9,121);
-  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(79,144,205,1) 100%); */
   background: rgb(68,68,182);
-background: linear-gradient(90deg, rgba(68,68,182,1) 0%, rgba(48,202,240,1) 50%, rgba(79,144,205,1) 100%);
+  background: linear-gradient(90deg, rgba(68,68,182,1) 0%, rgba(48,202,240,1) 50%, rgba(79,144,205,1) 100%);
   color: #000; }
 
 a {
@@ -129,7 +126,7 @@ div.cv-section {
     margin-top: 0.5rem; }
     div.cv-section ul.skills li {
       display: inline;
-      background-color: #4f90cd;
+      background-color: #2eb7d9;
       color: #fff;
       padding: 0.25rem 0.70rem;
       border-radius: 5px;
