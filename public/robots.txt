@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /ErdemOzkokCV.pdf
+
+Sitemap: https://www.erdemozkok.com/sitemap.xml
