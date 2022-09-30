@@ -243,6 +243,29 @@
     <a class="download-link button" href="ErdemOzkokCV.pdf"><span class="mdi mdi-download"></span> Download</a>
   </div>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBIdjGGbVxuBu8wchmN_rU7yIXpCjzh1Ho",
+      authDomain: "erdemozkok-9b62c.firebaseapp.com",
+      projectId: "erdemozkok-9b62c",
+      storageBucket: "erdemozkok-9b62c.appspot.com",
+      messagingSenderId: "386543963218",
+      appId: "1:386543963218:web:2944c4ab42b80fefea638b",
+      measurementId: "G-3VWPP4X4KT"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
   </body>
 </html>
